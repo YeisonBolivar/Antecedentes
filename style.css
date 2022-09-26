@@ -1,0 +1,49 @@
+
+main{
+    max-width: 98%;
+    margin: 0 auto;
+}
+
+main h2{
+    text-align: center;
+}
+
+.clasificacion-img {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.clasificacion-img div{
+    width: 250px;
+    height: 350px;
+
+}
+
+.regional{
+    width: 150px;
+    height: 200px;
+}
+
+.nacional{
+    width: 150px;
+    height: 200px;
+}
+
+.internacional{
+    width: 250px;
+}
+
+
+
+
+
+fieldset label{
+    display: block;
+}
+
+footer h4{
+    display: inline;
+    margin-left: 20px;
+}
+
