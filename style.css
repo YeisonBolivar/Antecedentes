@@ -70,6 +70,9 @@ main h2{
         width: 100%;
     }
     
+    .video-youtube{
+        width: 460px;
+    }
 
     .contenedor-cuestionario iframe{
         width: 100%;
