@@ -1,5 +1,3 @@
-
-
 main h2{
     text-align: center;
 }
@@ -30,6 +28,18 @@ main h2{
     height: 200px;
 }
 
+.contenedor-paraQueSirven ul{
+    margin-left: -20px;
+}
+
+.video-youtube{
+    display: block;
+    width:560px; 
+    height:315px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 .contenedor-cuestionario{
     text-align: center;
