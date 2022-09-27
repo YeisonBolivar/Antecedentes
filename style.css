@@ -1,49 +1,64 @@
 
-main{
-    max-width: 98%;
-    margin: 0 auto;
-}
 
 main h2{
     text-align: center;
 }
 
-.clasificacion-img {
+.contenedor-casificacionImagenes{
+
     display: flex;
     justify-content: center;
     gap: 10px;
+    text-align: center;
+    margin: 0 auto;
 }
 
-.clasificacion-img div{
-    width: 250px;
-    height: 350px;
-
+.contenedor-casificacionImagenes div{
+    width: 30%;
+    height: 300px;
 }
 
 .regional{
-    width: 150px;
     height: 200px;
 }
 
 .nacional{
-    width: 150px;
     height: 200px;
 }
 
 .internacional{
-    width: 250px;
+    height: 200px;
+}
+
+
+
+.contenedor-cuestionario{
+    text-align: center;
 }
 
 
 
 
+@media screen and (max-width: 600px){
+    .contenedor-casificacionImagenes{
+        display: block;
+    }
 
-fieldset label{
-    display: block;
+    .contenedor-casificacionImagenes div{
+        width: 100%;
+    }
+    
 }
 
-footer h4{
-    display: inline;
-    margin-left: 20px;
+
+.integrantes{
+    display: flex;
+    gap: 20px;
+    
 }
 
+.integrantes h4{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding: 0 10px;
+}
