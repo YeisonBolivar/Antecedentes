@@ -36,8 +36,21 @@ main h2{
     text-align: center;
 }
 
+.contenedor-cuestionario iframe{
+    width: 640px;
+}
 
 
+.integrantes{
+    display: flex;
+    gap: 20px;
+    
+}
+.integrantes h4{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding: 0 10px;
+}
 
 @media screen and (max-width: 600px){
     .contenedor-casificacionImagenes{
@@ -48,17 +61,8 @@ main h2{
         width: 100%;
     }
     
-}
 
-
-.integrantes{
-    display: flex;
-    gap: 20px;
-    
-}
-
-.integrantes h4{
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    padding: 0 10px;
+    .contenedor-cuestionario iframe{
+        width: 100%;
+    }
 }
