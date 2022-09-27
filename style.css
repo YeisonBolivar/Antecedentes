@@ -65,4 +65,11 @@ main h2{
     .contenedor-cuestionario iframe{
         width: 100%;
     }
+
+    .integrantes {
+        display: block;
+    }
+    .integrantes h4{
+        border: none;
+    }
 }
